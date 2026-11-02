@@ -1,11 +1,11 @@
-# inferopt_jd320
+# job_preemption_fairness_dedup
 
 **在大模型推理优化工程师·作业抢占与调度公平性里找出重复内容并给出归并建议。**
 
-`inferopt_jd320` —— 对内容做归一化与分片比对，找出大模型推理优化工程师·作业抢占与调度公平性上的重复项并按相似度归并
+`job_preemption_fairness_dedup` —— 对内容做归一化与分片比对，找出大模型推理优化工程师·作业抢占与调度公平性上的重复项并按相似度归并
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`inferopt_jd320.py` 拷走就能用
+- 单文件，`job_preemption_fairness_dedup.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install tctrebom-inferopt_jd320
+pip install tctrebom-job_preemption_fairness_dedup
 ```
 
 装完直接用命令名调用：
 
 ```bash
-inferopt_jd320 --help
+job_preemption_fairness_dedup --help
 ```
 
-也可以不用安装，直接把 `inferopt_jd320.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `job_preemption_fairness_dedup.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ inferopt_jd320 --help
 ## 用法
 
 ```bash
-python inferopt_jd320.py --file input.txt
-python inferopt_jd320.py --text "示例内容"
-python inferopt_jd320.py --file input.txt --json
+python job_preemption_fairness_dedup.py --file input.txt
+python job_preemption_fairness_dedup.py --text "示例内容"
+python job_preemption_fairness_dedup.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python inferopt_jd320.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_inferopt_jd320.py
+python test_job_preemption_fairness_dedup.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_inferopt_jd320.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/tctrebom/inferopt_jd320>
+- GitHub 仓库：<https://github.com/tctrebom/job_preemption_fairness_dedup>
 
 ---
 
@@ -79,7 +79,7 @@ python test_inferopt_jd320.py
 tctrebom 做大模型推理优化工程师·作业抢占与调度公平性相关的问题，方向对标银河通用的负责人大模型推理优化工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://tctrebom.github.io>
-- 仓库：<https://github.com/tctrebom/inferopt_jd320>
+- 仓库：<https://github.com/tctrebom/job_preemption_fairness_dedup>
 
 ## 许可
 

@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tctrebom-inferopt_jd320"
+name = "tctrebom-job_preemption_fairness_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出大模型推理优化工程师·作业抢占与调度公平性上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://tctrebom.github.io"
-Repository = "https://github.com/tctrebom/inferopt_jd320"
-Issues = "https://github.com/tctrebom/inferopt_jd320/issues"
+Repository = "https://github.com/tctrebom/job_preemption_fairness_dedup"
+Issues = "https://github.com/tctrebom/job_preemption_fairness_dedup/issues"
 
 [project.scripts]
-inferopt_jd320 = "inferopt_jd320:main"
+job_preemption_fairness_dedup = "job_preemption_fairness_dedup:main"
 
 [tool.setuptools]
-py-modules = ["inferopt_jd320"]
+py-modules = ["job_preemption_fairness_dedup"]
